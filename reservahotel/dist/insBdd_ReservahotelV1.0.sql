@@ -1,0 +1,2 @@
+INSERT INTO `reservahotel`.`rol` (`nombre_rol`, `descripcion_rol`) VALUES ('admin', 'administrador');
+INSERT INTO `reservahotel`.`usuario` (`nombre_usu`, `clave_usu`, `rol_id_rol`) VALUES ('max', '123', '1');
